@@ -1,0 +1,11 @@
+<ion-view title="{{title}}">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="article in articles" href="#/tab/post/{{article.id}}" >
+
+	      {{article.title}}
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

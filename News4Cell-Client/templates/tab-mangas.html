@@ -1,0 +1,14 @@
+<ion-view title="Mangas">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="manga in mangas" type="item-text-wrap" href="#/tab/manga/{{manga.id}}" class="item item-thumbnail-left">
+      	<!-- <a class="item item-thumbnail-left" href="#"> -->
+        <!-- TODO Image-->
+        <img ng-src="{{manga.image1}}">
+	      <h2>{{manga.title}} - h2</h2>
+	      <!-- <p>{{manga.name}} - p</p> -->
+	    <!-- </a> -->
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

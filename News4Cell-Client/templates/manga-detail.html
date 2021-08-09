@@ -1,0 +1,17 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'firend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view title="{{manga.name}}">
+    <ion-content has-header="true">
+     <ion-list>
+      <ion-item ng-repeat="paragraph in paragraphs" class="item item-thumbnail-left item-text-wrap">
+      	<!-- <input type="file" capture="camera" accept="image/*"> -->
+      	<img ng-src="{{paragraph.image}}">
+      	<h2>{{paragraph.contents}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
