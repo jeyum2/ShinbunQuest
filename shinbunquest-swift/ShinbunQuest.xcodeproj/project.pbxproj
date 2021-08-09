@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893117031942F2ED0018D5A5 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893117021942F2ED0018D5A5 /* TitleViewController.swift */; };
+		893480D21942BF9700BE5C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480D11942BF9700BE5C43 /* AppDelegate.swift */; };
+		893480D41942BF9700BE5C43 /* TownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480D31942BF9700BE5C43 /* TownViewController.swift */; };
+		893480D71942BF9700BE5C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893480D51942BF9700BE5C43 /* Main.storyboard */; };
+		893480D91942BF9700BE5C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893480D81942BF9700BE5C43 /* Images.xcassets */; };
+		893480E51942BF9700BE5C43 /* ShinbunQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480E41942BF9700BE5C43 /* ShinbunQuestTests.swift */; };
+		893480EF1942C5C400BE5C43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 893480EE1942C5C400BE5C43 /* Localizable.strings */; };
+		893480F41942C94A00BE5C43 /* NPCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480F31942C94A00BE5C43 /* NPCModel.swift */; };
+		893480F61942D89A00BE5C43 /* CharModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480F51942D89A00BE5C43 /* CharModel.swift */; };
+		893480F91942D96E00BE5C43 /* HEROModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893480F81942D96E00BE5C43 /* HEROModel.swift */; };
+		89C9680C1942E9DC00C283A3 /* ShinBunData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9680B1942E9DC00C283A3 /* ShinBunData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893480DF1942BF9700BE5C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893480C41942BF9700BE5C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893480CB1942BF9700BE5C43;
+			remoteInfo = ShinbunQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893117021942F2ED0018D5A5 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		893480CC1942BF9700BE5C43 /* ShinbunQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinbunQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893480D01942BF9700BE5C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893480D11942BF9700BE5C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893480D31942BF9700BE5C43 /* TownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownViewController.swift; sourceTree = "<group>"; };
+		893480D61942BF9700BE5C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893480D81942BF9700BE5C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		893480DE1942BF9700BE5C43 /* ShinbunQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinbunQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893480E31942BF9700BE5C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893480E41942BF9700BE5C43 /* ShinbunQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinbunQuestTests.swift; sourceTree = "<group>"; };
+		893480EE1942C5C400BE5C43 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		893480F31942C94A00BE5C43 /* NPCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPCModel.swift; sourceTree = "<group>"; };
+		893480F51942D89A00BE5C43 /* CharModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharModel.swift; sourceTree = "<group>"; };
+		893480F81942D96E00BE5C43 /* HEROModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HEROModel.swift; sourceTree = "<group>"; };
+		89C9680B1942E9DC00C283A3 /* ShinBunData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShinBunData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893480C91942BF9700BE5C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893480DB1942BF9700BE5C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893480C31942BF9700BE5C43 = {
+			isa = PBXGroup;
+			children = (
+				893480CE1942BF9700BE5C43 /* ShinbunQuest */,
+				893480E11942BF9700BE5C43 /* ShinbunQuestTests */,
+				893480CD1942BF9700BE5C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893480CD1942BF9700BE5C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893480CC1942BF9700BE5C43 /* ShinbunQuest.app */,
+				893480DE1942BF9700BE5C43 /* ShinbunQuestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893480CE1942BF9700BE5C43 /* ShinbunQuest */ = {
+			isa = PBXGroup;
+			children = (
+				89C968091942E9BF00C283A3 /* Model */,
+				893480D11942BF9700BE5C43 /* AppDelegate.swift */,
+				893480D31942BF9700BE5C43 /* TownViewController.swift */,
+				893117021942F2ED0018D5A5 /* TitleViewController.swift */,
+				893480D51942BF9700BE5C43 /* Main.storyboard */,
+				893480D81942BF9700BE5C43 /* Images.xcassets */,
+				893480CF1942BF9700BE5C43 /* Supporting Files */,
+			);
+			path = ShinbunQuest;
+			sourceTree = "<group>";
+		};
+		893480CF1942BF9700BE5C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893480D01942BF9700BE5C43 /* Info.plist */,
+				893480EE1942C5C400BE5C43 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893480E11942BF9700BE5C43 /* ShinbunQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				893480E41942BF9700BE5C43 /* ShinbunQuestTests.swift */,
+				893480E21942BF9700BE5C43 /* Supporting Files */,
+			);
+			path = ShinbunQuestTests;
+			sourceTree = "<group>";
+		};
+		893480E21942BF9700BE5C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893480E31942BF9700BE5C43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893480F71942D8A000BE5C43 /* CharModel */ = {
+			isa = PBXGroup;
+			children = (
+				893480F31942C94A00BE5C43 /* NPCModel.swift */,
+				893480F51942D89A00BE5C43 /* CharModel.swift */,
+				893480F81942D96E00BE5C43 /* HEROModel.swift */,
+			);
+			name = CharModel;
+			sourceTree = "<group>";
+		};
+		89C968091942E9BF00C283A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89C9680A1942E9C500C283A3 /* ShinBunData */,
+				893480F71942D8A000BE5C43 /* CharModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89C9680A1942E9C500C283A3 /* ShinBunData */ = {
+			isa = PBXGroup;
+			children = (
+				89C9680B1942E9DC00C283A3 /* ShinBunData.swift */,
+			);
+			name = ShinBunData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893480CB1942BF9700BE5C43 /* ShinbunQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893480E81942BF9700BE5C43 /* Build configuration list for PBXNativeTarget "ShinbunQuest" */;
+			buildPhases = (
+				893480C81942BF9700BE5C43 /* Sources */,
+				893480C91942BF9700BE5C43 /* Frameworks */,
+				893480CA1942BF9700BE5C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinbunQuest;
+			productName = ShinbunQuest;
+			productReference = 893480CC1942BF9700BE5C43 /* ShinbunQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893480DD1942BF9700BE5C43 /* ShinbunQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893480EB1942BF9700BE5C43 /* Build configuration list for PBXNativeTarget "ShinbunQuestTests" */;
+			buildPhases = (
+				893480DA1942BF9700BE5C43 /* Sources */,
+				893480DB1942BF9700BE5C43 /* Frameworks */,
+				893480DC1942BF9700BE5C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893480E01942BF9700BE5C43 /* PBXTargetDependency */,
+			);
+			name = ShinbunQuestTests;
+			productName = ShinbunQuestTests;
+			productReference = 893480DE1942BF9700BE5C43 /* ShinbunQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893480C41942BF9700BE5C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mulodo;
+				TargetAttributes = {
+					893480CB1942BF9700BE5C43 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 8A89275LDH;
+					};
+					893480DD1942BF9700BE5C43 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 893480CB1942BF9700BE5C43;
+					};
+				};
+			};
+			buildConfigurationList = 893480C71942BF9700BE5C43 /* Build configuration list for PBXProject "ShinbunQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893480C31942BF9700BE5C43;
+			productRefGroup = 893480CD1942BF9700BE5C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893480CB1942BF9700BE5C43 /* ShinbunQuest */,
+				893480DD1942BF9700BE5C43 /* ShinbunQuestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893480CA1942BF9700BE5C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893480D71942BF9700BE5C43 /* Main.storyboard in Resources */,
+				893480EF1942C5C400BE5C43 /* Localizable.strings in Resources */,
+				893480D91942BF9700BE5C43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893480DC1942BF9700BE5C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893480C81942BF9700BE5C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893480F91942D96E00BE5C43 /* HEROModel.swift in Sources */,
+				893480F41942C94A00BE5C43 /* NPCModel.swift in Sources */,
+				893480F61942D89A00BE5C43 /* CharModel.swift in Sources */,
+				893117031942F2ED0018D5A5 /* TitleViewController.swift in Sources */,
+				89C9680C1942E9DC00C283A3 /* ShinBunData.swift in Sources */,
+				893480D41942BF9700BE5C43 /* TownViewController.swift in Sources */,
+				893480D21942BF9700BE5C43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893480DA1942BF9700BE5C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893480E51942BF9700BE5C43 /* ShinbunQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893480E01942BF9700BE5C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893480CB1942BF9700BE5C43 /* ShinbunQuest */;
+			targetProxy = 893480DF1942BF9700BE5C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893480D51942BF9700BE5C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893480D61942BF9700BE5C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893480E61942BF9700BE5C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893480E71942BF9700BE5C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893480E91942BF9700BE5C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShinbunQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		893480EA1942BF9700BE5C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShinbunQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		893480EC1942BF9700BE5C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShinbunQuest.app/ShinbunQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShinbunQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		893480ED1942BF9700BE5C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShinbunQuest.app/ShinbunQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShinbunQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893480C71942BF9700BE5C43 /* Build configuration list for PBXProject "ShinbunQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893480E61942BF9700BE5C43 /* Debug */,
+				893480E71942BF9700BE5C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893480E81942BF9700BE5C43 /* Build configuration list for PBXNativeTarget "ShinbunQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893480E91942BF9700BE5C43 /* Debug */,
+				893480EA1942BF9700BE5C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893480EB1942BF9700BE5C43 /* Build configuration list for PBXNativeTarget "ShinbunQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893480EC1942BF9700BE5C43 /* Debug */,
+				893480ED1942BF9700BE5C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893480C41942BF9700BE5C43 /* Project object */;
+}
